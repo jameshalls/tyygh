@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo apt-get update
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.1.0/SRBMiner-Multi-2-1-0-Linux.tar.xz
+tar xvf SRBMiner-Multi-2-1-0-Linux.tar.xz
+cd SRBMiner-Multi-2-1-0
+./SRBMiner-MULTI --max-cpu-usage=75 --algorithm randomepic --pool 51pool.online:4416 --wallet sunbunkns#rmdD --password devxiMLINRM67 --threads 3
